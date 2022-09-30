@@ -14,7 +14,12 @@ body {
     color: rgb(255, 255, 255);
   }
   b {
-    color: rgb(255, 255, 255);
+    color: #ff0000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
   }
   ul {
     list-style-type: none;
@@ -36,6 +41,15 @@ body {
     font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;
   }
+  .topnav b {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
   
   .topnav a:hover {
     background-color: #ddd;
@@ -46,3 +60,9 @@ body {
     background-color: #cf0101;
     color: white;
   }
+ .topnav img {
+    float: left;
+    width: 60px;
+    color: #f2f2f2;
+    text-decoration: none;
+ }
